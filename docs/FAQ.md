@@ -11,11 +11,23 @@
 Skills are specialized instruction files that teach AI assistants how to handle specific tasks. Think of them as expert knowledge modules that your AI can load on-demand.
 **Simple analogy:** Just like you might consult different experts (a lawyer, a doctor, a mechanic), these skills let your AI become an expert in different areas when you need them.
 
-### Do I need to install all 626+ skills?
+### Do I need to install all 1006+ skills?
 
 **No!** When you clone the repository, all skills are available, but your AI only loads them when you explicitly invoke them with `@skill-name`.
 It's like having a library - all books are there, but you only read the ones you need.
 **Pro Tip:** Use [Starter Packs](BUNDLES.md) to install only what matches your role.
+
+### What is the difference between Bundles and Workflows?
+
+- **Bundles** are curated recommendations grouped by role or domain.
+- **Workflows** are ordered execution playbooks for concrete outcomes.
+
+Use bundles when you are deciding _which skills_ to include. Use workflows when you need _step-by-step execution_.
+
+Start from:
+
+- [BUNDLES.md](BUNDLES.md)
+- [WORKFLOWS.md](WORKFLOWS.md)
 
 ### Which AI tools work with these skills?
 
@@ -102,6 +114,8 @@ git pull origin main
 ---
 
 ## 🛠️ Using Skills
+
+> **💡 For a complete guide with examples, see [USAGE.md](USAGE.md)**
 
 ### How do I invoke a skill?
 
